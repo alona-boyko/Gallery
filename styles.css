@@ -1,0 +1,27 @@
+body {
+    background-color: lightcyan;
+}
+
+.firstRow img {
+    height: 150px;
+    width: 200px;
+    border: solid 10px transparent;
+}
+
+.secondRow img {
+    height: 220px;
+    width: 250px;
+    border: solid 10px transparent;
+}
+
+.firstRow img:hover {
+    border-color: lightpink;
+    border-width: 10px;
+    width: 230px;
+}
+
+.secondRow img:hover {
+    border-color: limegreen;
+    border-width: 7px;
+    border-radius: 70px;
+}
